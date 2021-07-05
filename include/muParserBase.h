@@ -45,8 +45,8 @@
 #include "muParserError.h"
 
 #if defined(_MSC_VER)
-	#pragma warning(push)
-	#pragma warning(disable : 4251)  // ...needs to have dll-interface to be used by clients of class ...
+    #pragma warning(push)
+    #pragma warning(disable : 4251)  // ...needs to have dll-interface to be used by clients of class ...
 #endif
 
 
@@ -65,7 +65,7 @@ namespace mu
 		Complementary to a set of internally implemented functions the parser is able to handle
 		user defined functions and variables.
 	*/
-	class API_EXPORT_CXX ParserBase
+    class API_EXPORT_CXX ParserBase
 	{
 		friend class ParserTokenReader;
 

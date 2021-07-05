@@ -59,7 +59,7 @@
 
 #if defined(_UNICODE)
 	/** \brief Definition of the basic parser string type. */
-	#define MUP_STRING_TYPE std::wstring
+    #define MUP_STRING_TYPE std::wstring
 
 	#if !defined(_T)
 		#define _T(x) L##x
